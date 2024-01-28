@@ -1,0 +1,183 @@
+.navul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b0b0b01e;
+  backdrop-filter: blur(10px);
+}
+
+.contul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b0b0b000;
+  backdrop-filter: blur(10px);
+}
+
+.navli {
+  font-family: headline;
+  float: inline-start;
+}
+
+.contli {
+  font-family: headline;
+  float: inline-start;
+  margin: 10px;
+}
+  
+.navli a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.contli a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+  
+.navli a:hover {
+  background-color: #11111155;
+}
+
+
+
+body,html {
+    background: linear-gradient(to top left, rgba(16, 16, 81, 0.633), rgb(1, 54, 11));
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: monospace;
+    font-size: large;
+    /* background-image: url('assets/images/pexels-daniel-absi-952670.jpg'); */
+}
+
+.content {
+    color: white;
+    padding: 10px;
+    background-color: rgba(129, 126, 126, 0.03);
+    backdrop-filter: blur(10px);
+    margin: 20px;
+    border-radius: 15px;
+    width:fit-content;
+}
+
+.skill-content {
+  color: white;
+  padding: 10px;
+  background-color: rgba(129, 126, 126, 0.03);
+  backdrop-filter: blur(10px);
+  margin: 20px;
+  border-radius: 15px;
+}
+.skill-content:hover {
+  background: linear-gradient(to top, rgba(129, 126, 126, 0.278), rgba(131, 131, 135, 0.108));
+  border-radius: 10px;
+}
+
+.contact-content {
+  color: white;
+  padding: 10px 10%;
+  background-color: rgb(0, 0, 0);
+  backdrop-filter: blur(10px);
+  border-radius: 15px 15px 0 0;
+  overflow: hidden;
+}
+
+.content:hover {
+    background: linear-gradient(to top, rgba(33, 39, 41, 0.278), rgba(131, 131, 135, 0));
+    border-radius: 10px;
+    transition: 300ms;
+}
+.content-int {
+    color: white;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    margin: 10px;
+    border-radius: 10px;
+    width:fit-content;
+}
+
+.profimg {
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px 8px 10px 5px rgb(95, 95, 95);
+}
+
+.container {
+    justify-content: center;
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-family: namedisplay;
+}
+
+@font-face {
+  font-family: namedisplay;
+  src: url('assets/fonts/SFUIDisplay/SFUIDisplay-Thin.otf');
+}
+
+@font-face {
+  font-family: navdisplay;
+  src: url('assets/fonts/SFUIDisplay/SFUIDisplay-Semibold.otf');
+}
+
+@font-face {
+  font-family: desdisplay;
+  src: url('assets/fonts/SFUIDisplay/SFUIDisplay-Light.ttf');
+}
+@font-face {
+  font-family: headline;
+  src: url('assets/fonts/SFUIDisplay/SFUIDisplay-Bold.ttf');
+}
+
+.projectimage {
+  height: 80px;
+  width: 120px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.buttonmore {
+  background: linear-gradient( to top left, rgba(60, 122, 126, 0.685), rgba(19, 100, 154, 0.559));
+  border-radius: 10px;
+  border: none;
+  color: aliceblue;
+  padding: 10px;
+  font-family: headline;
+}
+
+.buttonmore:hover {
+  background: linear-gradient( to top left, rgba(26, 174, 31, 0.685), rgba(191, 134, 29, 0.559));
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+.projectitem {
+  padding: 5px;
+}
+
+.projectitem:hover {
+  background-color: rgba(178, 178, 178, 0.229);
+  border-radius: 10px;
+  height: min-content;
+}
+
+.projectitem a {
+  text-decoration: none;
+  font-family: headline;
+  color: rgb(180, 180, 238);
+}
+
+
