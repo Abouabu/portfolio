@@ -57,6 +57,7 @@ body,html {
     color: white;
     font-family: monospace;
     font-size: large;
+    padding: 0;
     /* background-image: url('assets/images/pexels-daniel-absi-952670.jpg'); */
 }
 
@@ -179,5 +180,10 @@ h2 {
   font-family: headline;
   color: rgb(180, 180, 238);
 }
-
+.copyright {
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 0.1rem;
+}
 
